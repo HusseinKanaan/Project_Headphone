@@ -1,0 +1,120 @@
+/* --General-- */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Work Sans', sans-serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #2e2e2e;
+    color:#ebccc250 ;
+    font-size: 1rem;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+/*------------** about**--------------------- */
+
+/* ***-navBar-*** */
+.navBar {
+    display: flex;
+    padding: 3vh 0 0 5%;
+    
+}
+
+.navBar Img {
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    
+}
+
+.navBar ul {
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+    gap: 3%;
+    align-items: center;
+    position: fixed;
+    
+}
+
+a {
+    color: #ebccc250;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(190, 190, 190);
+    text-decoration: underline;
+    transition-delay: 0.15s;
+}
+
+li {
+    list-style-type: none;
+}
+
+.headingStyle {
+    font-weight: 300;
+    font-size: 3rem;
+    color:rgb(234, 204, 194, 0.759);
+}
+
+.navBar h1{
+         margin: 10vh 0 0 30%;
+        text-align: left;
+        display: block;
+        width: 29%;
+}
+
+/* --About Image1 --- */
+.aboutImg1 {
+    background-image: url('../img/section-about-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    width: 90%;
+    height: 90vh;
+    margin-top: 15vh;
+}
+
+/* --About Image 2 */
+
+.aboutImg2 {
+    display: flex;
+    
+}
+
+.aboutImg2 img {
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    width: 600px;
+    margin: 20vh 0% 0 12%;
+}
+.aboutText{
+    padding: 33vh 27% 0 5%;
+}
+
+.aboutText p{
+    font-size: 1.3rem;
+    padding-top: 20px;
+}
+
+
+.navbarstyle{
+    height: 100%;
+        width: 160px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+
+}
